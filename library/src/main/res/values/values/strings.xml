@@ -1,0 +1,12 @@
+<resources>
+    <string name="about_page_description" translatable="false">This Application is created by Asad and Rahul for our Final Year Project. The purpose of creating this app is to bring revolution in data transfer methods. This app is a research plus product in which we are trying to transfer data offline through QR codes. You can generate QR codes through this app and can also download data from QR Codes through Scanner. </string>
+    <string name="about_contact_us">Contact us</string>
+    <string name="about_instagram">Follow us on Instagram</string>
+    <string name="about_facebook">Like us on Facebook</string>
+    <string name="about_play_store">Rate us on the Play Store</string>
+    <string name="about_youtube">Watch us on Youtube</string>
+    <string name="about_twitter">Follow us on Twitter</string>
+    <string name="about_github">Fork us on GitHub</string>
+    <string name="about_website">Visit our website</string>
+
+</resources>

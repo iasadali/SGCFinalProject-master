@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal |center_vertical"
+    android:background="@color/white"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <include layout="@layout/banner">
+        </include>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_margin="10dp"
+        >
+
+
+        <EditText
+            android:id="@+id/tb_loc"
+            android:focusable="false"
+            android:elevation="2dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:layout_height="50dp"
+            android:hint="Select file"
+            android:background="@drawable/much_rounded_layout"
+            android:textColor="@color/logoBorder"
+            android:textSize="20sp"
+            android:textColorHint="@color/logoBorder"
+            android:paddingTop="14dp"
+            android:inputType="number"
+            android:drawableTint="@color/logoBorder"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:drawablePadding="80dp"
+            android:gravity="center|left"
+            />
+
+
+
+        <Button
+            android:elevation="5dp"
+            android:id="@+id/btn_browse"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@drawable/rounded_layout"
+            android:backgroundTint="@color/light_blue"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Browse"
+            android:textAllCaps="false"
+            />
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical |center_horizontal"
+            >
+
+            <TextView
+                android:gravity="end"
+                android:layout_marginRight="26dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encrypt?"
+                android:textColor="@color/applcatonAccent"
+                android:textSize="22sp"
+                />
+
+
+
+            <Switch
+                android:id="@+id/encrypt_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:thumbTint="@color/light_blue"
+                />
+
+
+        </LinearLayout>
+        <EditText
+            android:id="@+id/tb_password"
+            android:elevation="2dp"
+
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:textAlignment="center"
+
+            android:background="@drawable/much_rounded_layout"
+            android:textColor="@color/logoBorder"
+            android:textSize="20sp"
+            android:textColorHint="@color/logoBorder"
+            android:paddingTop="14dp"
+            android:inputType="textPassword"
+            android:drawableTint="@color/logoBorder"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:drawablePadding="80dp"
+            android:gravity="center|left"
+            />
+
+
+        <Button
+            android:id="@+id/btn_generate"
+            android:layout_marginTop="40dp"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:background="@drawable/dashed_rounded"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Generate"
+            android:textAllCaps="false"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
